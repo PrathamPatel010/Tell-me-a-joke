@@ -2,14 +2,14 @@
 body {
     font-family: 'Merriweather', serif;
     font-family: 'Montserrat', sans-serif;
-    background-color: #e2e8f0;
+    background-color: #ddd6fe;
     margin: 0;
 }
 
 .heading {
-    font-size: 2rem;
-    background-color: #00BFFF;
-    color: #b91c1c;
+    font-size: 1.5rem;
+    background-color: #8b5cf6;
+    color: #fcd34d;
     padding: 2rem;
     text-align: center;
 }
@@ -25,11 +25,13 @@ body {
 }
 
 .container-output {
+    font-size: 1.3rem;
     margin: 2rem 0rem;
-    height: 10rem;
+    height: 26rem;
     width: 100%;
-    background-color: #a5f3fc;
+    background-color: #a78bfa;
     text-align: center;
+    color: #fef08a;
 }
 
 .footer {
@@ -41,6 +43,19 @@ body {
 }
 
 .link {
+    text-decoration: none;
+    color: #94a3b8;
+    margin: 1rem;
     display: block;
     text-align: center;
+}
+
+.link:hover {
+    color: white;
+}
+
+.btn {
+    background-color: #1e293b;
+    color: whitesmoke;
+    border-radius: 1rem;
 }
