@@ -18,6 +18,11 @@ body {
 }
 
 .container-third {
+    margin: 1rem;
+    text-align: center;
+}
+
+.container-output {
     margin: 2rem 0rem;
     height: 20rem;
     width: 100%;
