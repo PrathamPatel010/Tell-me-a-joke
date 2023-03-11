@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&display=swap');
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.heading {
+    background-color: #00BFFF;
+    color: #b91c1c;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container-second {
+    margin: 1rem;
+    text-align: center;
+}
+
+.container-third {
+    margin: 2rem 0rem;
+    height: 20rem;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+}
