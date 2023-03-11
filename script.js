@@ -8,7 +8,7 @@ function SingleLineJokeURL() {
 }
 
 function MultiLineJokeURL() {
-    return 'https: //sv443.net/jokeapi/v2/joke/Any?type=twopart&format=json';
+    return 'https://sv443.net/jokeapi/v2/joke/Any?type=twopart&format=json';
 }
 
 // this function will do the work for getting single part joke
@@ -21,5 +21,16 @@ const single = function() {
     })
 }
 
+// this function will do the work for getting double part joke
+const twoPart = function() {
+    let url = MultiLineJokeURL();
+    fetch(url).
+    then(response => response.json()).
+    then(json => {
+        outputDiv.innerHTML = `${json.setup} <br> ${json.delivery}`;
+    })
+}
+
 // adding event listeners for two buttons
 singleButton.addEventListener('click', single);
+multiButton.addEventListener('click', twoPart);
